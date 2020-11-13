@@ -23,11 +23,11 @@ inputs:
   src_branch:
     description: 'The branch name of the source repository'
     required: false
-    default: 'master'
+    default: 'main'
   dst_branch:
     description: 'The branch name of the destination repository'
     required: false
-    default: 'master'
+    default: 'main'
   clean:
     description: 'Set to true if the dst_path should be emptied before copying'
     default: false
